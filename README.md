@@ -10,8 +10,12 @@ The GA toolkit has been packaged in a dockerized container.
 The toolkit’s image can be tested and run on a  local machine  and can be accessed by running the following commands : 
 
 Run GA component: docker run -d -p 8082:8080 gait_module 
+
 Currently, the GA image can be accessed and tested from Docker hub by typing the following commands: 
+
 •	Step 1: type docker pull adanentnu/gait_module (on terminal) 
+
 •	Step 2: type docker run -p 8088:8080 adanentnu/gait_module (on terminal) 
+
 •	Step 3: type localhost:8088/apidocs ( on a browser)
 
